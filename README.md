@@ -24,4 +24,5 @@ All commands are run from the root of the project, from a terminal:
 
 ## 👀 A look?
 
-![Captura de Pantalla 2022-09-12 a la(s) 11 50 00](https://user-images.githubusercontent.com/79995644/189711333-49a8b5e7-6e2b-414f-97d8-f9f54cf429ad.png)
+![Captura de Pantalla 2022-09-12 a la(s) 13 40 54](https://user-images.githubusercontent.com/79995644/189731227-4975d98d-5b66-4cea-b3e1-1e372eca1c63.png)
+![Captura de Pantalla 2022-09-12 a la(s) 13 41 35](https://user-images.githubusercontent.com/79995644/189731314-190fa530-00f9-4c29-b2c4-07f90972c614.png)
