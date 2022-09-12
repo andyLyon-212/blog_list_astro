@@ -8,7 +8,7 @@ const getDateString= (date) => {
 
 const Blogs = ({ blogs }) => {
   return (
-    <div className="flex flex-row space-x-4" >
+    <div className="flex flex-row sm:flex-col lg:flex-row space-x-4 sm:space-y-4" >
       {blogs.posts.map(post => {
         return (
           <a key={post.id} href={post.url}>
