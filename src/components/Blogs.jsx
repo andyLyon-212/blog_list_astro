@@ -8,11 +8,12 @@ const getDateString= (date) => {
 
 const Blogs = ({ blogs }) => {
   return (
-    <div className="flex md:flex-row sm:flex-col space-x-4" >
+    <div className="flex flex-row space-x-4" >
       {blogs.posts.map(post => {
         return (
           <a key={post.id} href={post.url}>
-            <div className="max-w-sm rounded overflow-hidden shadow-lg bg-black">
+            <div className=" transform  hover:scale-75 transition duration-300">
+            <div className="max-w-sm rounded overflow-hidden shadow-lg bg-stone-900">
                <img className="w-full h-48" src={post.feature_image} alt={`Image of ${post.slug}`}/>
                <div className="px-6 py-4 md:mt-0 md:ml-6">
                  <div className="font-bold text-md mb-2 underline text-slate-50"> { getDateString(post.published_at) } </div>
@@ -22,6 +23,7 @@ const Blogs = ({ blogs }) => {
                  { post.excerpt}
                 </p>
               </div>
+            </div>
             </div>
           </a>
         )
